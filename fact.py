@@ -9,5 +9,5 @@ def asd(n):
     else:
         return (n * asd(n - 1))
 
-
+print asd(b), "This is my push"
 print asd(b)
